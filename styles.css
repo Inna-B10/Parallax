@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    height: 100%;
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #111;
+    counter-reset: section;
+}
+
+header,
+footer,
+.pallarax {
+    position: relative;
+}
+
+header,
+footer {
+    opacity: 0.90;
+    background-image: url("images/header.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    min-height: 100%;
+}
+
+footer {
+    min-height: 70%;
+}
+
+header {
+    opacity: 0.7;
+}
+
+.title-header,
+.title-footer {
+    background-color: #111;
+    display: inline;
+    color: #fff;
+    padding: 20px 0;
+    font-size: 27px;
+    letter-spacing: 8px;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+}
+
+.text-header,
+.text-footer {
+    background-color: #111;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+}
+
+.text-header {
+    padding: 20px;
+}
+
+.text-footer {
+    width: 100%;
+    background-color: transparent;
+}
+
+/* main section */
+main {
+    display: flex;
+}
+
+/* Left side */
+.content-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    width: 80%;
+    color: #666;
+    margin: 100px 50px 0;
+    text-align: left;
+    padding: 0 0 20px 20px;
+    border: 2px dashed;
+    white-space: nowrap;
+}
+
+th {
+    vertical-align: bottom;
+    height: 50px;
+}
+
+td {
+    line-height: 0.5em;
+}
+
+.sticky {
+    position: sticky;
+    top: 30%;
+    margin: 50px;
+    font-size: 20px;
+    line-height: 2.2em;
+}
+
+h2 {
+    margin: 20px 0 40px;
+}
+
+/* right side */
+.content-right {
+    width: 50%;
+}
+
+.pallarax {
+    min-height: 400px;
+    margin: 40px 0 20px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.step>img {
+    width: 100%;
+    height: auto;
+}
+
+.step::before {
+    content: "Step " counter(section);
+    counter-increment: section;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.step::after {
+    content: "PHOTO: Dotdash Meredith Food Studios";
+    font-size: 0.7rem;
+    position: absolute;
+    bottom: 45px;
+    right: 5px;
+    color: #fff;
+    text-shadow: 1px 1px 4px #000;
+}
+
+.step-text {
+    margin: 20px 0;
+}
+
+.big {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+@media(max-width:568px) {
+
+    .pallarax {
+        background-attachment: scroll;
+    }
+}
+
+
+
+/*
+
+https: //www.allrecipes.com/recipe/10402/the-best-rolled-sugar-cookies/
+
+ */
