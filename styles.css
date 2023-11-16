@@ -22,7 +22,6 @@ footer,
 
 header,
 footer {
-    opacity: 0.90;
     background-image: url("images/header.webp");
     background-position: center;
     background-size: cover;
@@ -36,10 +35,11 @@ header {
 
 footer {
     min-height: 70%;
+    opacity: 0.90;
 }
 
 header {
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 .title-header,
