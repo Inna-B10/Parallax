@@ -14,6 +14,14 @@ html {
     counter-reset: section;
 }
 
+.title-footer a {
+    color: #5CA8CA;
+}
+
+.title-footer a:visited {
+    color: #9966FF;
+}
+
 header,
 footer,
 .pallarax {
@@ -22,7 +30,7 @@ footer,
 
 header,
 footer {
-    opacity: 0.90;
+    opacity: 0.85;
     background-image: url("images/header.webp");
     background-position: center;
     background-size: cover;
@@ -38,9 +46,6 @@ footer {
     min-height: 70%;
 }
 
-header {
-    opacity: 0.7;
-}
 
 .title-header,
 .title-footer {
