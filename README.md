@@ -1,2 +1,1 @@
-# Parallax
- Simple parallax
+### Basic Parallax Website With HTML & CSS
