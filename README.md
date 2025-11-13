@@ -13,8 +13,8 @@ a small project for exploring parallax effect.
 ### 🧩 Built With
 
 ![HTML](https://img.shields.io/badge/HTML-424242?logo=html5)
-![CSS](https://img.shields.io/badge/CSS-424242?logo=css3)
+![CSS](https://img.shields.io/badge/CSS-424242?logo=css)
 
 <!-- end:tech-stack -->
 
-### 🚀 Demo https://inna-b10.github.io/Parallax/
+### 🚀 [View demo](https://inna-b10.github.io/Parallax/)
